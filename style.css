@@ -1,0 +1,38 @@
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-title {
+    color: #F9FAF8;
+    font-weight: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.container {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-placeholder {
+    background-color: grey;
+}
