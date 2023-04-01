@@ -38,10 +38,19 @@ button {
     justify-content: space-around;
 }
 
-.img-placeholder {
-    background-color: grey;
+h4 {
     text-align: center;
+}
+
+.placeholder {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    padding-left: 100px;
     height: 200px;
+    width: 300px;
 }
 
 .hero {
@@ -49,6 +58,8 @@ button {
     flex-direction: column;
     width: 300px;
     height: 300px;
+    padding-top: 115px;
+    padding-bottom: 50px;
 }
 
 .maintxt {
