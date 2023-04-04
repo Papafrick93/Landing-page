@@ -72,3 +72,47 @@ h4 {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* Main part of the Landing page */
+.mainpart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infotitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 50px;
+}
+
+.info {
+    display: flex;
+}
+
+.box1, .box2,  .box3, .box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 180px;
+    margin: 30px;
+}
+
+.img1, .img2, .img3, .img4 {
+    border: solid 4px #3882F6;
+    border-radius: 25px;
+    height: 180px;
+    width: 180px;
+}
+
+.txt1, .txt2, .txt3, .txt4 {
+    font-size: 18px;
+    text-align: center;
+    color: darkslategray;
+    margin: 15px; 
+}
+/* End of Main part of the Landing page */
