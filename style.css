@@ -116,3 +116,20 @@ h4 {
     margin: 15px; 
 }
 /* End of Main part of the Landing page */
+
+/*Quote section*/
+.quote  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.quotetxt {
+    font-size: 36px;
+    width: 850px;
+    font-style: italic; 
+}
+/*End of Quote section*/
