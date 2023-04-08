@@ -2,6 +2,18 @@ body {
     font-family: Roboto;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Header Section*/
 .header {
     background-color: #1F2937;
     display: flex;
@@ -14,19 +26,10 @@ body {
     font-weight: bold;
     font-size: 24px;
 }
+/*End of Header Section*/
 
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 16px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-button {
+/*Hero Section*/
+.button1 {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 10px;
@@ -76,6 +79,7 @@ h4 {
     font-size: 18px;
     color: #E5E7EB;
 }
+/*End of Hero Section*/
 
 /* Main part of the Landing page */
 .mainpart {
@@ -94,6 +98,7 @@ h4 {
 
 .info {
     display: flex;
+    padding-bottom: 20px;
 }
 
 .box1, .box2,  .box3, .box4 {
@@ -145,3 +150,53 @@ h4 {
     padding-left: 700px;
 }
 /*End of Quote section*/
+
+/*Action section*/
+.lastsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px;
+    width: 900px;
+}
+ .atxt1 {
+    color: #F9FAF8;
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .atxt2 {
+    color: #F9FAF8;
+    font-size: 20px;
+ }
+
+ .button2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 200px;
+    padding: 10px;
+ }
+ /*End of Action section*/
+
+ /*Footer*/
+ .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ /*End of Footer*/
